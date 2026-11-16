@@ -24,3 +24,11 @@ Não Será Testado: <br>
 -Integração com Banco de Dados e APIs <br>
 -Segurança da Informação <br>
 -Compatibilidade com Navegadores Legados <br>
+
+O site falha no teste se falhar em qualquer teste dentre os On-Scope <br>
+Os testes podem ser feitos em qualquer navegador dentre os listados abaixo: <br>
+Google Chrome <br>
+Microsoft Edge <br>
+Mozilla Firefox <br> 
+Brave <br>
+
