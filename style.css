@@ -7,7 +7,6 @@ body {
 
 /* BUG DE DESIGN: Header fixo cobrindo o topo da página sem padding no body */
 .top-bar {
-    position: fixed;
     top: 0;
     width: 100%;
     background-color: #f1f1f1;
@@ -16,15 +15,15 @@ body {
     padding: 10px;
 }
 
-/* BUG DE USABILIDADE: Texto cinza super claro no fundo cinza claro */
+
 .link-menu {
-    color: #e0e0e0;
+    color: #000000;
     text-decoration: none;
     margin-right: 15px;
 }
 
 .texto-apagado {
-    color: #d3d3d3; /* Baixíssimo contraste */
+    color: #000; 
     font-size: 14px;
 }
 
@@ -35,28 +34,28 @@ body {
 
 .card {
     border: 1px solid #ccc;
-    width: 500px; /* BUG DE DESIGN: Largura fixa quebra responsividade */
+    min-width: 500px; 
     margin: 10px;
     padding: 15px;
 }
 
-/* BUG DE PERFORMANCE E DESIGN: Carrega imagens gigantes sem max-width */
+
 .img-produto {
-    width: 100%;
+    max-width: 600px;
     height: auto;
 }
 
 .btn-comprar {
     background-color: yellow;
-    color: white; /* BUG DE CONTRASTE: Amarelo com texto branco */
+    color: #000; 
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-/* BUG DE USABILIDADE: Tabela com largura fixa gigantesca */
+
 .tabela-largura-fixa {
-    width: 1500px;
+    min-width: 800px;
     border-collapse: collapse;
 }
 
